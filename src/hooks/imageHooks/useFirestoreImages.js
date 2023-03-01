@@ -23,7 +23,6 @@ const useFirestore = (collection, doc) => {
           });
         });
         setDocs(documents);
-        console.log(`2312312321 ${docs}`);
       });
 
     return () => unsub();

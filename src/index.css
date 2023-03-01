@@ -28,6 +28,39 @@ body{
   margin-top: 60px;
   font-size: 2.6rem;
 }
+/*NAVBAR*/
+.user{
+  justify-content: end;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.personImage{
+  
+  border-radius: 50px;
+  width: 10%;
+ }
+ .navbar .link{
+  
+  margin-left: 2rem;
+  cursor: pointer;
+  color:  var(--secondary);
+ }
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.navbar .title{
+  padding-left: 20px;
+}
+
+
 
 /* upload form styles */
 form{
@@ -92,6 +125,7 @@ label:hover{
   position: absolute;
   top: 0;
   left: 0;
+  
 }
 
 /* modal styles */
@@ -105,8 +139,8 @@ label:hover{
 }
 .backdrop img{
   display: block;
-  max-width: 60%;
-  max-height: 80%;
+  max-width: 80vw;
+  max-height: 80vh;
   margin: 60px auto;
   box-shadow: 3px 5px 7px rgba(0,0,0,0.5);
   border: 3px solid white;
