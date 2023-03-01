@@ -8,12 +8,12 @@ import 'firebase/compat/firestore'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
- apiKey :"AIzaSyAU0iTrvGtVxRpmc1ts01qbZ_gQoBGxzQ0",
- authDomain: "fir-instagram-5079d.firebaseapp.com",
- projectId: "fir-instagram-5079d",
- storageBucket: "fir-instagram-5079d.appspot.com",
- messagingSenderId:  "672734893571",
- appId: "1:672734893571:web:e6e2861bdd013421aee036"
+ apiKey :"*****",
+ authDomain:"*****",
+ projectId:"*****",
+ storageBucket:"*****",
+ messagingSenderId:"*****",
+ appId:"*****",
 };
 
 // Initialize Firebase
