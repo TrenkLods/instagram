@@ -9,12 +9,14 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="title">
-        <Link to='/'><h1>Instagram</h1></Link>
+        <Link to='/'>Instagram</Link>
       </div>
+     
       <Link className="link" to='/chat'>Insta Chat</Link>
+       <Link className="link" to='/frends'>Insta Frends</Link>
       <div className="user">
         <img className='personImage' src={currentUser.photoURL} alt="" />
-        <span>{currentUser.displayName||currentUser.email}</span>
+        <span className='navbar-name'>{currentUser.displayName||currentUser.email}</span>
         <button onClick={() => signOut(auth)}>logout</button>
       </div>
     </div>

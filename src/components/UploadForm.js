@@ -16,11 +16,11 @@ const UploadForm = () => {
     }
   };
   return (
-    <div>
+    <div className='upload-container'>
       <form>
-        <label>
-          <input type="file" onChange={chengeHandler} />
-          <span>+</span>
+        <label >
+          <input  type="file" onChange={chengeHandler} />
+          <span >+</span>
         </label>
 
         <div className="output">
